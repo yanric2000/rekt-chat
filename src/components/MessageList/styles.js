@@ -4,7 +4,7 @@ import * as Variables from '../../assets/theme/variables';
 export const Container = styled.div`
     align-items: center;
     background-color: ${Variables.secondaryColor};
-    border: 1px solid ${Variables.secondaryShadowThirdColor};
+    border: 1px solid ${Variables.shadowThirdColor};
     border-radius: 6px;
     display: flex;
     flex-flow: column;
@@ -12,6 +12,10 @@ export const Container = styled.div`
     justify-content: end;
     margin: 0 auto 24px auto;
     padding: 22px;
+    width: 100%;
+`;
+
+export const List = styled.ul`
     width: 100%;
 `;
 

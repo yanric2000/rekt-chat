@@ -76,8 +76,11 @@ input, textarea, button, label {
     outline: none;
     -webkit-appearance: none;
     box-shadow: none;
+    box-sizing: border-box;
 }
 
 #root {
+    display: flex;
+    flex-flow: wrap;
     height: 100%;
 }

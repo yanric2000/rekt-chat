@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import * as Variables from '../../assets/theme/variables';
 
-export const ContainerFullHeight = styled.div `
+export const ContainerFullScreen = styled.div `
     background-color: ${Variables.secondaryShadowSecondaryColor};
     display: flex;
     flex-flow: column;
     height: 100%;
+    width: 100%;
 `;
 
 export const Container = styled.div`
@@ -18,7 +19,7 @@ export const Container = styled.div`
             return props.customHeight ? props.customHeight : `100%`
         }
     };
-    padding: 0 28px;
+    padding: 0 60px;
     width: 100%;
 `;
 

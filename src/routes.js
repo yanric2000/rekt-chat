@@ -8,7 +8,7 @@ import PrivatesRoutes from './privatesRoutes';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={ () => <Home/> } />
+            <PrivatesRoutes exact path="/" component={ () => <Home/> } />
             <Route path="/login" component={ () => <Login/> } />
             <PrivatesRoutes path="/private" component={ () => <Private/> }/>
         </Switch>
